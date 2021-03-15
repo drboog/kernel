@@ -1,0 +1,9 @@
+scikit-learn
+scikit-image
+numpy
+lmdb
+tqdm
+matplotlib
+pillow
+tensorflow-gpu==1.13.1
+scipy==1.0.0
