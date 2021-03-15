@@ -292,7 +292,6 @@ class Trainer(object):
             #x_train, y_train = self.dataset.x_train, self.dataset.y_train
             max_batches = self.config.n_train // self.config.batch_size
 
-            ################## code added 1/7/2020 #####################################
             #
             # for bi in range(max_batches):
             #     start = bi * self.config.batch_size
@@ -456,8 +455,8 @@ def main():
     parser.add_argument('--gamma_3', type=float, default=1e-3, required=False)
     parser.add_argument('--beta1', type=float, default=0.9, required=False)
     parser.add_argument('--beta2', type=float, default=0.999, required=False)
-    parser.add_argument('--imp', type=int, default=0, required=False)   # note here we can not use bool type, which is always True
-    parser.add_argument('--k_steps', type=int, default=5, required=False)   # note here we can not use bool type, which is always True
+    parser.add_argument('--imp', type=int, default=0, required=False)   # T or F
+    parser.add_argument('--k_steps', type=int, default=5, required=False)   # T or F
     # parser.add_argument('--learning_rate_k', type=float, default=1e-3, required=False)  # learning rate for heat kernel
     parser.add_argument('--learning_rate_k_dk', type=float, default=1e-3, required=False)  # learning rate for heat kernel, data-dependent case
     parser.add_argument('--ker_lam', type=float, default=0.1, required=False)
