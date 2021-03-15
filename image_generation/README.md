@@ -29,8 +29,6 @@ Generated samples on CIFAR-10
 </p>
 
 
->>>>>>> e61ff8474c9cb128c13a83b58b23e4b2b341839f
-
 ## Acknowledgement
 
 The implementation is based on this repository: https://github.com/MichaelArbel/Scaled-MMD-GAN.
