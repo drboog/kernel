@@ -23,6 +23,11 @@ Run
 python main.py -gpu 0 -config_file w2flow_cifar10_dk.yml
 ```
 
+Generated samples on CIFAR-10
+<p align="center">
+	<img src="https://github.com/drboog/kernel/blob/main/image_generation/samples/cifar10.png">
+</p>
+
 
 ## Acknowledgement
 
