@@ -5,5 +5,5 @@ lmdb
 tqdm
 matplotlib
 pillow
-tensorflow-gpu==1.13.1
+tensorflow-gpu
 scipy==1.0.0
