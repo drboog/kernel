@@ -1,7 +1,7 @@
 Datasets:
 https://drive.google.com/file/d/1VDSJCQztH_i9ybFxtwucNlQkd-p-Ifk9/view?usp=sharing
 
-We provide some hyper-parameter settings here:
+Some examples with hyper-parameters:
 
 1. For improved SVGD, use the following command:
 
